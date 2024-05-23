@@ -109,9 +109,9 @@ span {
     display: flex;
     flex-direction: column;
     position: fixed;
-    left:15%;
+    left:30%;
     width: 70%; /* Ajustez la largeur du formulaire selon vos besoins */
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 label {
@@ -172,4 +172,38 @@ button {
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 50%;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background: rgb(85, 41, 41);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: rgb(55, 55, 55);
+}
+
+.fond {
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
 }

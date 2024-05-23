@@ -149,14 +149,32 @@
 
     <section id="contact">
         <h2>Contactez-moi</h2>
-        <form action="./confirmation.html" method="post" class="contact-form">
+        <form id="contactForm" class="contact-form">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="num" name="telephone" required><br><br>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button id="btnEnvoyerMail">Envoyer</button>
+        </form>
+        <!-- <form action="./confirmation.html" method="post" class="contact-form">
             <input type="text" name="name" placeholder="Votre nom" required>
             <input type="text" name="prenom" placeholder="Votre prénom" required>
             <input type="tel" name="tel" placeholder="Votre numéro de téléphone" required>
             <input type="email" name="email" placeholder="Votre email" required>
             <textarea name="message" placeholder="Votre message" required></textarea>
             <button type="submit" class="btn">Envoyer</button>
-        </form>
+        </form> -->
         <div class="social-links">
             <div class="github">
                 <a href="https://github.com/AdnamDemaurisa59" target="_blank"><img src="./logo_github.png" alt="Photo"></a>
