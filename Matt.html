@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="matt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+    <script src="matt.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div>
+            <input type="image" id="profil-image" src="IMG_6946.png" data-0="display:block; top:5%"
+                data-600="display:none; top:-100%">
+            <div class="tete" data-0="display:none" data-100="display:block; top:100%"
+                data-1100="display:none; top:-100%">
+                <h2>RAUD Matthéo <br> 23 ANS <br> Etudiant en informatique </h2>
+            </div>
+        </div>
+
+        <div class="Accueil">
+            <a href="./index.html"> <img style="width: 40px; height: 40px; margin: 10px"  src="home.png" alt="home"></a>
+        </div>
+        <div class="HautPage">
+            <a href="#"> <img style="width: 40px; height: 40px; margin: 10px" src="up-arrow.png" alt="haut"></a>
+        </div>
+
+        <div>
+            <h1 data-300="scale:1; top:110%; display:block" data-800="scale:2; top:5%" data-1700="top:5%"
+                data-2000="top:-100%; display:none" style="margin-left: 5%">
+                Mes Projet</h1>
+            <div class="fp n1" data-350="left:0%; top:100%" data-1100="left:70%; top:25%" data-1400="left:70%"
+                data-1500="left:120%">
+                Splendor Duel <br>Numérique</div>
+            <div class="fp n2" data-450="left:100%; top:120%" data-1200="left:20%; top:40%" data-1500="left:20%; top:25%"
+                data-1600="left:-20%">
+                Forum</div>
+            <div class="fp n3" data-550="left:0%; top:140%" data-1300="left:70%; top:55%" data-1600="left:70%; top:35%"
+                data-1700="left:120%">
+                Puissance 4
+            </div>
+            <div class="fp n4" data-650="left:100%; top:160%" data-1400="left:20%; top:70%" data-1700="left:20%; top:35%"
+                data-1800="left:-20%">
+                Dragon Slayer</div>
+            <div class="fp n5" data-750="left:0%; top:180%" data-1500="left:70%; top:85%" data-1800="left:70%; top:45%"
+                data-1900="left:120%">
+                Pendu</div>
+        </div>
+
+        <div >
+            <h1 data-1800="scale:1; top:110%; display:block" data-1950="scale:2; top:5%" data-2000="top:5%"
+                data-2100="top:-10%; display:none" style="margin-left: 5%" class="Language">
+                Mes Langages</h1>
+            
+            <div class="line_logo" data-0="top:140%; display:none" data-1850="top:140%; display:block" 
+            data-2050="top:40%; display:block" data-2100="top:40%; display:block" data-2200="top:-40%; display:none">
+                <img class="img_logo" src="java.png" alt="">
+                <img class="img_logo" src="Logo-HTML.jpeg" alt="">
+                <img class="img_logo" src="logo-css.jpeg" alt="">
+                <img class="img_logo" src="logo-js.jpeg" alt="">
+                <img class="img_logo" src="python.jpeg" alt="">
+            </div>
+        </div>
+
+        <div>
+            <h1 data-2050="scale:1; top:110%; display:block" data-2200="scale:2; top:5%" data-2300="top:5%"
+            data-2350="top:-10%; display:none" style="margin-left: 5%">
+            Mes Réseaux</h1>
+        </div>
+        <div class="Reseaux" data-0="display: none; top:110%" data-2150="display: block; top:110%"
+            data-2500="display: none; top:-50%">
+            <div class="plogo">
+                <div class="plogo-item">
+                    <a class="lienR" href="https://github.com/BluckyDroguyDog">
+                        <img src="logo_github.png" alt="GitHub" class="logo">
+                        <span>Github</span>
+                    </a>
+                </div>
+                <div class="plogo-item">
+                    <a class="lienR" href="https://fr.linkedin.com/in/matthéo-raud-9079aa262">
+                        <img src="logo_linkedin.png" alt="LinkedIn" class="logo">
+                        <span>Linkedin</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="Contact" data-0="display: none; top:110%" data-2200="display: block; top:110%"
+            data-2500="display: none; top:5">
+            <h1>Formulaire de contact</h1>
+
+            <form id="contactForm">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telephone">Téléphone :</label>
+                <input type="tel" id="num" name="telephone" required><br><br>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <button id="btnEnvoyerMail">Envoyer</button>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+<script>
+    var s = skrollr.init();
+</script>
